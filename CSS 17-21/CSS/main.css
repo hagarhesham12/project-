@@ -1,0 +1,55 @@
+.one1{
+    background-color: #eee;
+    padding: 20px;
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: .5px .5px 0 #f44336, 1px 1px 0 #2196f3, 1.5px 1.5px 0 purple;
+}
+.one,
+.two,
+.three{
+    background-color: #eee;
+    padding: 20px;
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: bold;
+}
+.one{
+    text-transform: uppercase;
+}
+.two{
+    text-transform: capitalize;
+}
+.three{
+    text-transform: lowercase;
+}
+.first,
+.second,
+.third{
+    background-color: #eee;
+    width: 400px;
+    padding: 20px;
+    margin: 20px auto;
+}
+.third{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+a{
+    background-color: #0fafa0;
+    color: white;
+    padding: 20px;
+    display: block;
+    font-size: 31px;
+    text-transform: capitalize;
+    margin: 20px auto;
+    width: fit-content;
+    text-decoration: none;
+    border-bottom: 10px solid #0e5e57;
+    font-family: arial;
+    font-weight: bold;
+}
